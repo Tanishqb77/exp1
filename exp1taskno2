@@ -1,0 +1,24 @@
+/* Aim :WAp to get students PCM marks from the user and find the average .Use
+conditional operator to print if the student is eligible for admission Eligibility criteria is 50% in PCM •
+Name : Tanishq Boraste
+Roll No: 26
+Division : A
+UIN: 2414031 Branch : AIDS
+*/
+#include<stdio.h>
+
+int main()
+
+{
+    int p,c,m,avg;
+    printf("\nEnter physics marks :");
+    scanf("%d",&p);
+    printf("Enter chemistry marks :");
+    scanf("%d",&c);
+    printf("Enter maths marks :");
+    scanf("%d",&m);
+    avg=(p+c+m)/3;
+    printf("Average Marks=%d",avg);
+    (avg>=50)? printf("\n\nEligible For Admisiion \n"):printf("\n\n Not Eligible For Admission \n");
+    return 0;
+}
