@@ -1,0 +1,20 @@
+/* Aim :WAp to print your name, age, class, division and UIN on the screen.
+Use escape sequences to properly format the output
+Name : Tanishq Boraste
+Roll No: 26
+Division : A
+UIN: 2414031 Branch : AIDS
+*/
+#include<stdio.h>
+
+int main()
+
+{
+
+printf("Full Name \t : Tanishq Boraste \n");
+printf("Age\t\t : 18 \n");
+printf("Class \t\t : FE- AIDS \n");
+printf("Division \t : A \n");
+printf("UIN\t\t : 241A031 \n");
+  return 0;
+}
